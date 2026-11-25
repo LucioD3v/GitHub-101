@@ -29,7 +29,7 @@ GitHub is a cloud-based service which hosts a version control system called [Git
 <br>
 
 **What's a repository**
-A [repository]((https://docs.github.com/en/get-started/quickstart/github-glossary#repository)) is  a proyect which contains all of the fill by itself, like images, folders, and other types of files along with the history of all the changes that have been made to those files.
+A [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository) is  a proyect which contains all of the fill by itself, like images, folders, and other types of files along with the history of all the changes that have been made to those files.
 
 📺 Video: [What's a repository](https://www.youtube.com/watch?v=T6o3Ci8Ieag)
 
@@ -85,7 +85,7 @@ If you wanna know more  go to [Manage your README profile](https://docs.github.c
 
 <br>
 
-![vgglProfileREADME](/images/vgglProfileREADME.jpeg)
+![vgglProfileREADME](../images/vgglProfileREADME.jpeg)
 
 </details>
 
@@ -96,13 +96,14 @@ If you wanna know more  go to [Manage your README profile](https://docs.github.c
 
 <br>
 
-[![Start course](https://user-images.githubusercontent.com/1221423/218596841-0645fe1a-4aaf-4f51-9ab3-8aa2d3fdd487.svg)](https://github.com/new?template_owner=)
+[![Start course](https://user-images.githubusercontent.com/1221423/218596841-0645fe1a-4aaf-4f51-9ab3-8aa2d3fdd487.svg)](https://github.com/new)
 
 2. Once we're are in the tab, go to the next instructions to make a new repository.
     - The owner of the account should indicate if will use their personal account or a organization to host the repository.
     - We suggest you create a repository public; the private repository [will use minutes from Github Actions](https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/about-billing-for-github-actions#about-billing-for-private-repositories).
+    - To follow this exercise from scratch, do not select the option to initialize the repository with a README.
 
-    ! [Create a new repository](/images/creando-nuevo-repositorio.jpg)
+    ! [Create a new repository](../images/creando-nuevo-repositorio.jpg)
 
 3. After of making the repository, we need to wait around 20 seconds to update the page and see tje new repository.
 
@@ -114,20 +115,20 @@ If you wanna know more  go to [Manage your README profile](https://docs.github.c
 Once inside the repository, we can see that we don't have any files yet, but the platform provides us with some recommendations, such as adding (uploading) a file or creating one. It also suggests that we can create/include a README, LICENSE, or .gitignore file.
 <br>
 
- ![Incluidng a README file](/images/incluyendo-archivo-README.jpg)
+ ![Incluidng a README file](../images/incluyendo-archivo-README.jpg)
 
 For this exercise, we will click on the README option, which will redirect us to the view that shows the created file with the same name in .md format on our `main` branch.
 <br>
 
-![Creating our README file](/images/creando-nuestro-archivo-README.jpg)
+![Creating our README file](../images/creando-nuestro-archivo-README.jpg)
 
 Here, we can add the desired information, as mentioned earlier. It's worth noting that if we don't want to edit it at the moment, we can do it later. For now, let's click on the blue "Commit changes" button located in the upper right corner. Upon doing so, a window will appear asking us to add a title and an optional description. Once we have written them, we can click on the corresponding button.
 
-![Commit changes](/images/commit-changes.jpg)
+![Commit changes](../images/commit-changes.jpg)
 
 Great! With this, we have made our first commit, which can be interpreted as if we have created a new file and stored it in our repository.
 
-![README file completed](/images/README-completo.jpg)
+![README file completed](../images/README-completo.jpg)
 
 Go to the next step.
 <br>
@@ -136,7 +137,7 @@ Go to the next step.
 
 <br>
 
-[Add a README](/images/addA-README.jpeg)
+[Add a README](../images/addA-README.jpeg)
 
 </details>
 
@@ -151,16 +152,16 @@ Creating a branch allows us to edit the project without changing the `main` (def
 
 <br>
 
-[Branch Dropdown Menu](/images/menu-desplegable-rama-principal.jpg)
+[Branch Dropdown Menu](../images/menu-desplegable-rama-principal.jpg)
 
 In the text field, it indicates that we can search or create a branch. Here, let's enter a name for the second option, and let's call our branch: dev. By doing this, the content will automatically change, and the option to create the branch with the name dev from main will appear.
 
-[dev branch](/images/rama-dev.jpg)
+[dev branch](../images/rama-dev.jpg)
 Click on the option Create branch: dev from main to create the branch.
 
 The branch will automatically change to the newly created one. The branch dropdown menu will reflect the new branch option and display its name, which in our case is dev.
 
-[Branch created](/images/rama-creada.jpg)
+[Branch created](../images/rama-creada.jpg)
 
 Done! - You have created a branch :tada:
 
@@ -175,15 +176,15 @@ To proceed with this step, the first thing we need to do is to create/add a new 
 2. Next, click on the "Add file" dropdown menu and select the option "Create new file".
 <br>
 
-![Create a new file](/images/crear-nuevo-archivo.jpg)
+![Create a new file](../images/crear-nuevo-archivo.jpg)
 3. In the new view, you will see an empty field with a placeholder text saying "Name your file...". This indicates that we should provide a name for the file. Let's name it `LICENSE.md`.
 
 
-**Note**: `.md` is a file extension that creates a [Markdown](https://docs.github.com/en/get-started/quickstart/github-glossary#markdown) file. For more information about Markdown, visit [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) in the GitHub documentation or take the [Communicate using Markdown]
+**Note**: `.md` is a file extension that creates a [Markdown](https://docs.github.com/en/get-started/quickstart/github-glossary#markdown) file. For more information about Markdown, visit [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) in the GitHub documentation or take the [Communicate using Markdown](https://github.com/skills/communicate-using-markdown) course.
 
 <br>
 
-[Licence-template](/images/licencia-platilla.jpg)
+[Licence-template](../images/licencia-plantilla.jpg)
 
 ``` 
 Copyright Notice.
@@ -196,7 +197,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ```
 <br>
 
-![licence-text](/images/licencia-texto.jpg)
+![licence-text](../images/licencia-texto.jpg)
 
 5. Next, click on the **Commit changes** button. Similar to the previous step where we created the `README` file, a popup window will appear asking for a brief commit message that describes the changes we made. Remember that this message helps others understand what we are adding in our commit. While GitHub provides a default simple message, let's customize it a bit for practice.
 
@@ -205,7 +206,7 @@ First, in the title, let's write: "Add LICENSE.md file". In the extended descrip
 
 6. Last, now we confirm the changes by clicking on the **Commit changes** button.
 
-![licencia commit](/images/licencia-commit.jpg)
+![licencia commit](../images/licencia-commit.jpg)
 
 Great! You're already mastering the process of making commits. Isn't it straightforward?
 
@@ -220,35 +221,70 @@ Once you have completed the previous steps, you may have noticed a small message
 
 In the actual screen, lets make a click on the button **Merge pull request**
 
-![Merge pull request](/images/merge-pull-request.jpg)
+![Merge pull request](../images/merge-pull-request.jpg)
 
 2. Next, in the mini dropdown that appears, click on **Confirm merge** (note that you can edit both the title and the description, but for this example, let's leave it as it is).
 
-![Confirm merge](/images/confirm-merge.jpg)
+![Confirm merge](../images/confirm-merge.jpg)
 
 3. Once the branch has been merged, we will no longer need it. To delete it, click on **Delete branch**.
 
-![Delete branch](/images/delete-branch.jpg)
+![Delete branch](../images/delete-branch.jpg)
 
 
 **Note**: If we delete the branch, we can restore it using the option that will appear to us.
 
-![recover the branch](/images/restaurar-rama.jpg)
+![recover the branch](../images/restaurar-rama.jpg)
 
 Great! Has successfully merged your changes from the `dev` branch to `main` :tada:
 
 </details>
 
 <details id=7>
+<summary><h2>Step 5: Create and organize an issue</h2></summary>
+
+An [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) is a place to discuss a task, report a problem, or suggest an improvement. Creating an issue does not change repository files.
+
+### Activity: create an issue
+
+1. In your repository, open the **Issues** tab and select **New issue**.
+2. Write a specific title, such as `Improve the project description`.
+3. In the description, explain what you want to change and the expected result. If you are reporting a problem, include steps to reproduce it.
+4. If the repository offers labels, choose one that describes the work, then select **Submit new issue**.
+
+Keep the issue number shown in its title, such as `#1`. In the next activity, you can link a pull request by adding `Closes #1` to its description. GitHub will close the issue when that pull request is merged into the default branch.
+
+</details>
+
+<details id=8>
+<summary><h2>Step 6: Review a pull request</h2></summary>
+
+Reviewing changes gives people a chance to discuss them before they are added to the project. To practice, create a branch, make a small change to the README, and open a pull request. Add `Closes #<number>` to its description to link the issue from the previous activity.
+
+### Activity: review the changes
+
+1. Ask another person with write access to the repository to review your pull request and open the **Files changed** tab.
+2. They can comment on a specific line or select **Review changes** and submit a review as **Comment**, **Approve**, or **Request changes**.
+3. Read and respond to comments. If changes are requested, push them to the same branch, then ask for another review.
+4. Once the review is complete, merge the pull request. The issue linked with `Closes #<number>` will close automatically when it is merged.
+
+You cannot submit a formal review of your own pull request. If you are learning on your own, you can explore the **Conversation** and **Files changed** tabs, but you will need a collaborator to practice submitting a review.
+
+See GitHub's guide to [pull request reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews).
+
+</details>
+
+<details id=9>
 <summary><h2>End of the course<h2></summary>
 
 Congratulations! You have completed this mini-course and have acquired the fundamental knowledge that every developer should know.
 
 Throughout the course, you have gained a solid understanding of the fundamental concepts of GitHub and learned how to effectively use this version control platform. Here is a summary of your achievements:
 
-- You learned about GitHub, repositories, branches, commits, and pull requests.
+- You learned about GitHub, repositories, branches, commits, issues, and pull requests.
 - You created a branch, made a commit, and generated a pull request.
 - The pull request was successfully merged.
+- You practiced creating an issue and reviewing a pull request.
 - You made your first contribution! 🎉
 
 Congratulations on your accomplishments, and keep up the great work on your journey as a developer!

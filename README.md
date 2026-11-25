@@ -7,8 +7,8 @@
 # GitHub-101
 Mini curso básico para aprender a usar GitHub.
 
-- Este curso también está disponible en otros idiomas, consúltalo [aquí](/translations)
-- This course is also available in other languages, check it out [here](/translations)
+- Este curso también está disponible en otros idiomas, consúltalo [aquí](translations/)
+- This course is also available in other languages, check it out [here](translations/)
 
 <!-- 
   <<< Author notes: Start of the course >>> 
@@ -112,7 +112,7 @@ Un perfil README es practicamente una introducción de quien eres, es decir, una
 
 <br>
 
- ![vgglProfileREADME](/images/vgglProfileREADME.jpeg)
+ ![vgglProfileREADME](images/vgglProfileREADME.jpeg)
 
 </details>
 
@@ -125,14 +125,15 @@ Un perfil README es practicamente una introducción de quien eres, es decir, una
 
 1. Hagamos clic en **Iniciar curso** (se recomienda abrir el enlace en una nueva pestaña)
 <br><br />
-[![Iniciar Curso](https://user-images.githubusercontent.com/1221423/218596841-0645fe1a-4aaf-4f51-9ab3-8aa2d3fdd487.svg)](https://github.com/new?template_owner=)
+[![Iniciar Curso](https://user-images.githubusercontent.com/1221423/218596841-0645fe1a-4aaf-4f51-9ab3-8aa2d3fdd487.svg)](https://github.com/new)
 2. Una vez en la pestaña, sigamos las siguientes instrucciones para crear un nuevo repositorio.
     - El dueño de la cuenta o propietario de la misma, debe de indicar si usará su cuenta personal o una organización para alojar el repositorio.
     - Recomendamos crear un repositorio público; los repositorios privados [utilizarán minutos de GitHub Actions](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions ).
     - Asigne un nombre al repositorio que sea fácil de reconocer y recordar.
+    - Para seguir el ejercicio desde cero, no seleccione la opción para inicializar el repositorio con un README.
     <br>
 
-    ![Crear un nuevo repositorio](/images/creando-nuevo-repositorio.jpg)
+    ![Crear un nuevo repositorio](images/creando-nuevo-repositorio.jpg)
 
 3. Después de crear susodicho, deberemos de esperar unos 20 segundos aproximadamente para poder actualizar la página y poder ver nuestro nuevo repositorio.
 
@@ -148,20 +149,20 @@ Un perfil README es practicamente una introducción de quien eres, es decir, una
 Una vez dentro del repositorio podemos observar que no contamos con ningún archivo, pero el portal nos brinda algunas recomendaciones tales como la de añadir(cargar) un archivo o crearlo. Así mismo nos señala que podemos crear/incluir un README, LICENSE o un .gitignore.
 <br> 
 
- ![Incluyendo archivo README](/images/incluyendo-archivo-README.jpg)
+ ![Incluyendo archivo README](images/incluyendo-archivo-README.jpg)
 
 Para este ejercicio daremos clic en la opción de README, mismo que nos redirigirá a la vista que nos mostrará que se creo el archivo con el mismo nombre en formato .md en nuestra rama `main`
 <br>
 
-  ![Creando nuestro archivo README](/images/creando-nuestro-archivo-README.jpg)
+  ![Creando nuestro archivo README](images/creando-nuestro-archivo-README.jpg)
 
 Aquí podemos añadir la información que deseemos, tal y como se mencionó con anterioridad, cabe destacar que si no gustan editarlo de momento lo podemos hacer más adelante. Por ahora demos clic en el botón azul `Commit changes`, situado en el lado superior derecho. Al hacerlo se desplegará una ventana que solicitará que añadamos un título y una descripción, misma que es opcional. Cuando hayamos escrito susodichos demos clic en el boton correspondiente.
 
-  ![Subir cambios](/images/commit-changes.jpg)
+  ![Subir cambios](images/commit-changes.jpg)
    
 ¡Listo!, con esto habremos realizado nuestro primer commit, el cual se puede interpretar como si hubiéramos creado un archivo nuevo y almacenado en nuestro repositorio. 
     
-  ![README completo](/images/README-completo.jpg)  
+  ![README completo](images/README-completo.jpg)
 
 Continuemos con el siguiente paso.
 <br>
@@ -170,7 +171,7 @@ Continuemos con el siguiente paso.
 
 <br>
 
- ![Add a README](/images/addA-README.jpeg)
+ ![Add a README](images/addA-README.jpeg)
 
 </details>
 
@@ -188,19 +189,19 @@ La creación de una rama nos permite editar los proyecto sin cambiar la rama `ma
 2. Esta nos mostrará un menú desplegable, la cual al hacer clic solo contendrá la rama `main`
 <br>
 
-   ![menu-desplegable-rama-principal](/images/menu-desplegable-rama-principal.jpg)
+   ![menu-desplegable-rama-principal](images/menu-desplegable-rama-principal.jpg)
   
 3. En el campo de texto nos indicá que podemos buscar o crear una rama, aquí ingresemos un nombre para realizar la segunda opción, llamemos a nuestra rama: `dev`. Al hacer esto, de manera automatica, cambiará el contenido y aparecerá la opción de crear la rama con el nombre `dev` proveniente de `main`.
 <br>
 
-   ![rama-dev](/images/rama-dev.jpg)
+   ![rama-dev](images/rama-dev.jpg)
 
 4. Hacemos clic en susodicha alternativa **Create branch: dev** from main  (**Crear rama: dev** de main) para concebir la rama.
   
 5. La rama cambiará automáticamente a la que se acaba de crear. El menú desplegable de la rama `main` reflejará su nueva opción o rama y mostrará por ende el nombre de la misma, que en nuestro caso nombramos: `dev`.
 <br>
 
-  ![rama-creada](/images/rama-creada.jpg)
+  ![rama-creada](images/rama-creada.jpg)
 
 ¡Listo! - Has creado una rama :tada:
 
@@ -220,7 +221,7 @@ Para este paso lo primero que deberemos de realizar será el crear/agregar un nu
 2. Acto seguido elijamos el menú desplegable "Add file (Agregar archivo)" y seleccionemos (demos clic) en la opción "Create new file (Crear nuevo archivo)".
 <br>
 
- ![crear-nuevo-archivo](/images/crear-nuevo-archivo.jpg)
+ ![crear-nuevo-archivo](images/crear-nuevo-archivo.jpg)
 
  3. En la nueva vista, aparecerá un campo vacío con una leyenda en sombreado "Name your file...", el cual nos indica que le brindemos un nombre, llamemoslo `LICENSE.md`.
 
@@ -229,7 +230,7 @@ Para este paso lo primero que deberemos de realizar será el crear/agregar un nu
 4. A continuación y de forma "mágica" se mostrará la leyenda "Choose a license template", misma que podemos seleccionar o, en el área Editar, podemos pegar el siguiente contenido:
 <br>
 
- ![licencia-plantilla](/images/licencia-plantilla.jpg)
+ ![licencia-plantilla](images/licencia-plantilla.jpg)
 
 ```
   Derechos de autor.
@@ -242,7 +243,7 @@ Para este paso lo primero que deberemos de realizar será el crear/agregar un nu
 ```
 <br>
 
- ![licencia-texto](/images/licencia-texto.jpg)
+ ![licencia-texto](images/licencia-texto.jpg)
 
  5. Posteriormente hagamos clic en el botón **Commit changes** para que al igual que en el paso anterior donde creamos el archivo `README`nos aparezca una ventana emergente que nos solicite ingresar un breve mensaje de confirmación que describa los cambios que realizamos. Recordemos que este mensaje ayuda a otros a saber qué estamos añadiendo en nuestro commit. Como nos podemos dar cuenta, GitHub ofrece un mensaje predeterminado simple, pero en esta ocasión vamos a cambiarlo un poco para practicar. 
  <br>
@@ -252,7 +253,7 @@ Para este paso lo primero que deberemos de realizar será el crear/agregar un nu
 6. Por último confirmemos los cambios dando clic en **Commit changes**
 <br>
 
-  ![licencia-commit](/images/licencia-commit.jpg)
+  ![licencia-commit](images/licencia-commit.jpg)
 
 ¡Excelente! - Ya estas dominando el realizar commits, ¿sencillo no?
 
@@ -262,40 +263,40 @@ Ahora que se realizó un cambio en el proyecto y se añadio, es hora de comparti
 
 Una vez realizado lo anterior, es probable que hayan notado un pequeño mensaje que muestra el envío reciente a la rama y proporciona un botón que dice **Contribute (Contribuir)**. Al desplegarlo, podremos observar dos opciones: **Compare (Comparar)** y **Open pull request (Abrirl solicitud de extracción)**.
 
-![Comparar y abrir Pull Request](/images/comparar-y-abrir-pull-request.jpg)
+![Comparar y abrir Pull Request](images/comparar-y-abrir-pull-request.jpg)
 
 Para realizar el PR hagamos clic en **Open pull request**, al realizar esto se nos mostrará una vista como la siguiente:
 
-![Abriendo Pull Request](/images/abriendo-pull-request.jpg)
+![Abriendo Pull Request](images/abriendo-pull-request.jpg)
 
 Si nos encontramos en esta pantalla, vayamos directamente al paso número 6. Caso contrario que no hayamos dado clic en susodicha opción, deberemos de realizar los siguientes pasos:
 
 1. Dar clic en la pestaña **Pull requests** en el menú de encabezado del repositorio.
 
-![Pestaña Pull Request](/images/pestaña-pul-request.jpg)
+![Pestaña Pull Request](images/pestaña-pul-request.jpg)
 
 2. Dar clic en **New pull request (Nueva solicitud de extracción)**.
 
-![Nuevo Pull Request](/images/nuevo-pull-request.jpg)
+![Nuevo Pull Request](images/nuevo-pull-request.jpg)
 
 3. En la nueva pantalla se mostrarán dos menús desplegables:  **base:main** y **compare:main**, asegúresemos de que la primera, la base seleccionada siempre sea **main**, porque es la "rama principal y original".
 
-![Comparación de ramas](/images/comparacion-de-ramas.jpg)
+![Comparación de ramas](images/comparacion-de-ramas.jpg)
 
 4. Del segundo menú desplegable **compare:**, seleccionemos nuestra rama `dev`.
 
-![Comparación rama Dev](/images/comparacion-rama-dev.jpg)
+![Comparación rama Dev](images/comparacion-rama-dev.jpg)
 
 5. Demos clic en el botón situado a la derecha **Create pull request**.
 6. Aquí deberemos de añadir un título para la solicitud de envio, aunque si nos percatamos, de forma predeterminada, el título será automáticamente el nombre del commit previamente ingresado. 
 7. El siguiente campo lo ayuda a proporcionar una descripción de los cambios que realizó. 
 <br>
 
-![Enviando mi primer PR ](/images/enviando-mi-primer-pr.jpg)
+![Enviando mi primer PR ](images/enviando-mi-primer-pr.jpg)
 
 8. Por último hagamos clic en **Create pull request**. Posteriormente seremos redirigidos automáticamente a la nueva solicitud de extracción.
 
-![PR en proceso ](/images/pr-en-proceso.jpg)
+![PR en proceso ](images/pr-en-proceso.jpg)
 
 ¡Listo!, Con esto habremos realizado nuestro primer Pull Request, vayamos al siguiente y último paso. :tada:
 
@@ -313,21 +314,55 @@ En este paso terminaremos lo que se ha realizado con anterioridad, es decir, rea
 
 1. En la pantalla actual hagamos clic en el botón **Merge pull request**.
 
-![Merge pull request](/images/merge-pull-request.jpg)
+![Merge pull request](images/merge-pull-request.jpg)
 
 2. Acto seguido, en el mini desplegable que aparecerá, demos clic en **Confirm merge** (cabe destacar que podemos editar tanto el título como la descripción, pero para este ejemplo dejemoslo tal y como se muestra).
 
-![Confirm merge](/images/confirm-merge.jpg)
+![Confirm merge](images/confirm-merge.jpg)
 
 3. Una vez que la rama se haya fusionado, ya no la necesitaremos, para eliminarla, hagamos clic en **Delete branch**.
 
-![Delete branch](/images/delete-branch.jpg)
+![Delete branch](images/delete-branch.jpg)
 
 **Nota**: si eliminamos la rama, podemos restaurarla con la opción que nos aparecerá:
 
-![restaurar rama](/images/restaurar-rama.jpg)
+![restaurar rama](images/restaurar-rama.jpg)
 
 ¡Listo! - Hemos fusionado correctamente nuestros cambios de la rama `dev`a `main` :tada:
+
+</details>
+
+<details id=7>
+<summary><h2>Paso 5: Crear y organizar un Issue</h2></summary>
+
+Un [Issue](https://docs.github.com/es/issues/tracking-your-work-with-issues/about-issues) sirve para conversar sobre una tarea, reportar un problema o proponer una mejora. A diferencia de un commit, crear un Issue no cambia los archivos del repositorio.
+
+### Actividad: crear un Issue
+
+1. En tu repositorio, abre la pestaña **Issues** y selecciona **New issue**.
+2. Escribe un título concreto, por ejemplo: `Mejorar la descripción del proyecto`.
+3. En la descripción, explica qué quieres cambiar y cuál sería el resultado esperado. Si reportas un error, incluye los pasos para reproducirlo.
+4. Si el repositorio ofrece etiquetas, elige una que describa el tipo de trabajo; luego selecciona **Submit new issue**.
+
+Guarda el número del Issue que aparece en su título, por ejemplo `#1`. En el siguiente ejercicio puedes vincular un pull request escribiendo `Closes #1` en su descripción. GitHub cerrará el Issue cuando ese pull request se fusione en la rama predeterminada.
+
+</details>
+
+<details id=8>
+<summary><h2>Paso 6: Revisar un pull request</h2></summary>
+
+La revisión permite conversar sobre los cambios antes de incorporarlos al proyecto. Para practicar, crea una rama, realiza un cambio pequeño en el README y abre un pull request. En su descripción, agrega `Closes #<número>` para vincular el Issue del paso anterior.
+
+### Actividad: revisar los cambios
+
+1. Pide a otra persona con permisos de escritura en el repositorio que revise tu pull request y abra la pestaña **Files changed**.
+2. Puede dejar un comentario en una línea concreta o seleccionar **Review changes** para enviar una revisión con una de estas opciones: **Comment**, **Approve** o **Request changes**.
+3. Lee los comentarios, responde y, si hacen falta cambios, súbelos a la misma rama. Después, pide que revisen el pull request de nuevo.
+4. Cuando la revisión esté completa, fusiona el pull request. Al fusionarse, el Issue vinculado con `Closes #<número>` se cerrará automáticamente.
+
+No puedes enviar una revisión formal a tu propio pull request. Si estás aprendiendo a solas, puedes explorar las pestañas **Conversation** y **Files changed**, pero necesitarás un colaborador para practicar el envío de una revisión.
+
+Consulta la guía oficial sobre [revisiones de pull requests](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews).
 
 </details>
 
@@ -335,16 +370,17 @@ En este paso terminaremos lo que se ha realizado con anterioridad, es decir, rea
   <<< Author notes: Conclusión >>> 
 -->
 
-<details id=7>
+<details id=9>
 <summary><h2>Termino del curso</h2></summary>
 
 ¡Felicidades!, ha completado este mini curso y ha obtenido los conocimientos básicos que todo desarrollador debe de saber.
 
 Durante el curso, pudo adquirir un sólido conocimiento de los conceptos fundamentales de GitHub y aprender a utilizar de manera efectiva esta plataforma de control de versiones. A continuación un resumen de sus logros:
 
-- Aprendiste sobre GitHub, repositorios, ramas, commits y solicitudes de incorporación de cambios.
+- Aprendiste sobre GitHub, repositorios, ramas, commits, Issues y solicitudes de incorporación de cambios.
 - Creó una rama, realizo un commit y se genero una solicitud de incorporación de archivos.
 - Se logró mezclar con exito la solicitud de cambios.
+- Practicaste cómo crear un Issue y revisar un pull request.
 - ¡Hiciste tu primera contribución! 🎉
 
 ## Siguientes pasos

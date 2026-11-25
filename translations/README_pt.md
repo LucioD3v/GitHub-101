@@ -27,7 +27,7 @@ O Github é um serviço baseado em nuvem que hospeda um sistema de controle de v
 <br>
 
 ***O que é um repositório****
-Um [repositório]((https://docs.github.com/en/get-started/quickstart/github-glossary#repository)) é um projeto que contém todos os arquivos, como imagens, pastas e outros tipos de arquivos, juntamente com o histórico de todas as alterações feitas nesses arquivos.
+Um [repositório](https://docs.github.com/en/get-started/quickstart/github-glossary#repository) é um projeto que contém todos os arquivos, como imagens, pastas e outros tipos de arquivos, juntamente com o histórico de todas as alterações feitas nesses arquivos.
 
 📺 Vídeo: O que é um [repositório](https://www.youtube.com/watch?v=T6o3Ci8Ieag)
 
@@ -84,7 +84,7 @@ Se você quiser saber mais, acesse [Gerenciar seu perfil README](https://docs.gi
 
 <br>
 
-![vgglProfileREADME](/images/vgglProfileREADME.jpeg)
+![vgglProfileREADME](../images/vgglProfileREADME.jpeg)
 
 </details>
 
@@ -95,13 +95,14 @@ Se você quiser saber mais, acesse [Gerenciar seu perfil README](https://docs.gi
 
 <br>
 
-[![Iniciar curso](https://user-images.githubusercontent.com/1221423/218596841-0645fe1a-4aaf-4f51-9ab3-8aa2d3fdd487.svg)](https://github.com/new?template_owner=)
+[![Iniciar curso](https://user-images.githubusercontent.com/1221423/218596841-0645fe1a-4aaf-4f51-9ab3-8aa2d3fdd487.svg)](https://github.com/new)
 
 2. Assim que estivermos na aba, siga as instruções a seguir para criar um novo repositório.
     - O proprietário da conta deve indicar se usará sua conta pessoal ou uma organização para hospedar o repositório.
     - Sugerimos que você crie um repositório público; o repositório privado [usará minutos do Github Actions](https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/about-billing-for-github-actions#about-billing-for-private-repositories).
+    - Para seguir este exercício desde o início, não selecione a opção para inicializar o repositório com um README.
 
-    ! [Criar um novo repositório](/images/creando-nuevo-repositorio.jpg)
+    ! [Criar um novo repositório](../images/creando-nuevo-repositorio.jpg)
 
 3. Após criar o repositório, precisamos aguardar cerca de 20 segundos para atualizar a página e ver o novo repositório.
 
@@ -113,20 +114,20 @@ Se você quiser saber mais, acesse [Gerenciar seu perfil README](https://docs.gi
 Ao entrar no repositório, podemos ver que ainda não temos nenhum arquivo, mas a plataforma nos oferece algumas recomendações, como adicionar (fazer upload) de um arquivo ou criar um. Também sugere que podemos criar/incluir um arquivo README, LICENSE ou .gitignore.
 <br>
 
-![Incluindo um arquivo README](/images/incluyendo-archivo-README.jpg)
+![Incluindo um arquivo README](../images/incluyendo-archivo-README.jpg)
 
 Para este exercício, vamos clicar na opção README, que nos redirecionará para a visualização que mostra o arquivo criado com o mesmo nome no formato .md em nosso ramo principal (`main`).
 <br>
 
-![Criando nosso arquivo README](/images/creando-nuestro-archivo-README.jpg)
+![Criando nosso arquivo README](../images/creando-nuestro-archivo-README.jpg)
 
 Aqui, podemos adicionar as informações desejadas, como mencionado anteriormente. Vale ressaltar que, se não quisermos editá-lo no momento, podemos fazê-lo posteriormente. Por enquanto, vamos clicar no botão azul "Commit changes" localizado no canto superior direito. Ao fazer isso, uma janela aparecerá pedindo para adicionar um título e uma descrição opcional. Assim que os escrevermos, podemos clicar no botão correspondente.
 
-![Commit changes](/images/commit-changes.jpg)
+![Commit changes](../images/commit-changes.jpg)
 
 Ótimo! Com isso, fizemos nosso primeiro commit, que pode ser interpretado como se tivéssemos criado um novo arquivo e o armazenado em nosso repositório.
 
-![Arquivo README concluído](/images/README-completo.jpg)
+![Arquivo README concluído](../images/README-completo.jpg)
 
 Vá para o próximo passo.
 <br>
@@ -135,7 +136,7 @@ Vá para o próximo passo.
 
 <br>
 
-[Adicionar um README](/images/addA-README.jpeg)
+[Adicionar um README](../images/addA-README.jpeg)
 
 </details>
 
@@ -150,16 +151,16 @@ Criar um ramo nos permite editar o projeto sem alterar o ramo principal (`main`)
 
 <br>
 
-[Menu Suspenso de Ramos](/images/menu-desplegable-rama-principal.jpg)
+[Menu Suspenso de Ramos](../images/menu-desplegable-rama-principal.jpg)
 
 No campo de texto, indica que podemos pesquisar ou criar um ramo. Aqui, vamos inserir um nome para a segunda opção e chamar nosso ramo de: dev. Ao fazer isso, o conteúdo mudará automaticamente e a opção de criar o ramo com o nome dev a partir do ramo main aparecerá.
 
-[Ramo dev](/images/rama-dev.jpg)
+[Ramo dev](../images/rama-dev.jpg)
 Clique na opção Criar ramo: dev a partir do ramo main para criar o ramo.
 
 O ramo será alterado automaticamente para o recém-criado. O menu suspenso de ramos refletirá a nova opção de ramo e exibirá seu nome, que, no nosso caso, é dev.
 
-[Ramo criado](/images/rama-creada.jpg)
+[Ramo criado](../images/rama-creada.jpg)
 
 Feito! - Você criou um ramo :tada:
 
@@ -174,14 +175,14 @@ Para prosseguir com este passo, a primeira coisa que precisamos fazer é criar/a
 2. Em seguida, clique no menu suspenso "Add file" e selecione a opção "Create new file".
 <br>
 
-![Criar um novo arquivo](/images/crear-nuevo-archivo.jpg)
+![Criar um novo arquivo](../images/crear-nuevo-archivo.jpg)
 3. Na nova visualização, você verá um campo vazio com um texto de placeholder dizendo "Name your file...". Isso indica que devemos fornecer um nome para o arquivo. Vamos chamá-lo de `LICENSE.md`.
 
-**Observação**: `.md` é uma extensão de arquivo que cria um arquivo [Markdown](https://docs.github.com/en/get-started/quickstart/github-glossary#markdown). Para obter mais informações sobre Markdown, visite [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) na documentação do GitHub ou faça o [Communicate using Markdown]
+**Observação**: `.md` é uma extensão de arquivo que cria um arquivo [Markdown](https://docs.github.com/en/get-started/quickstart/github-glossary#markdown). Para obter mais informações sobre Markdown, visite [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) na documentação do GitHub ou faça o curso [Communicate using Markdown](https://github.com/skills/communicate-using-markdown).
 
 <br>
 
-[Modelo de Licença](/images/licencia-platilla.jpg)
+[Modelo de Licença](../images/licencia-plantilla.jpg)
 
 ``` 
 Aviso de Direitos Autorais.
@@ -193,7 +194,7 @@ O aviso de direitos autorais acima e este aviso de permissão devem ser incluíd
 O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO A, AS GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UMA FINALIDADE ESPECÍFICA E NÃO VIOLAÇÃO. EM NENHUMA CIRCUNSTÂNCIA, OS AUTORES OU DETENTORES DOS DIREITOS AUTORAIS SERÃO RESPONSÁVEIS POR QUALQUER REIVINDICAÇÃO, DANOS OU OUTRA RESPONSABILIDADE, SEJA EM UMA AÇÃO DE CONTRATO, DELITO OU DE OUTRA FORMA, DECORRENTE DE, OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRAS OPERAÇÕES COM O SOFTWARE.
 ```
 
-![Texto da licença](/images/licencia-texto.jpg)
+![Texto da licença](../images/licencia-texto.jpg)
 
 5. Em seguida, clique no botão **Commit changes**. Semelhante ao passo anterior em que criamos o arquivo `README`, uma janela pop-up aparecerá pedindo uma breve mensagem de commit que descreva as alterações que fizemos. Lembre-se de que essa mensagem ajuda outras pessoas a entenderem o que estamos adicionando em nosso commit. Embora o GitHub forneça uma mensagem padrão simples, vamos personalizá-la um pouco para praticar.
 
@@ -202,7 +203,7 @@ Primeiro, no título, vamos escrever: "Adicionar arquivo LICENSE.md". Na descri�
 
 6. Por fim, confirmamos as alterações clicando no botão **Commit changes**.
 
-![licencia commit](/images/licencia-commit.jpg)
+![licencia commit](../images/licencia-commit.jpg)
 
 Ótimo! Você já está dominando o processo de fazer commits. Não é simples?
 
@@ -218,35 +219,70 @@ Depois de concluir os passos anteriores, você pode ter notado uma pequena mensa
 
 Na tela atual, clique no botão **Merge pull request**.
 
-![Mesclar solicitação de pull request](/images/merge-pull-request.jpg)
+![Mesclar solicitação de pull request](../images/merge-pull-request.jpg)
 
 2. Em seguida, no mini menu suspenso que aparece, clique em **Confirmar mesclagem** (observe que você pode editar tanto o título quanto a descrição, mas para este exemplo, vamos deixá-los como estão).
 
-![Confirmar mesclagem](/images/confirm-merge.jpg)
+![Confirmar mesclagem](../images/confirm-merge.jpg)
 
 3. Uma vez que o ramo tenha sido mesclado, não precisaremos mais dele. Para excluí-lo, clique em **Excluir ramo**.
 
-![Excluir ramo](/images/delete-branch.jpg)
+![Excluir ramo](../images/delete-branch.jpg)
 
 
 **Nota**: Se excluirmos o ramo, podemos restaurá-lo usando a opção que nos será apresentada.
 
-![Restaurar o ramo](/images/restaurar-rama.jpg)
+![Restaurar o ramo](../images/restaurar-rama.jpg)
 
 Ótimo! Você mesclou com sucesso suas alterações do ramo `dev` para o `main` :tada:
 
 </details>
 
 <details id=7>
+<summary><h2>Passo 5: Criar e organizar uma issue</h2></summary>
+
+Uma [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) é um espaço para discutir uma tarefa, relatar um problema ou sugerir uma melhoria. Criar uma issue não altera os arquivos do repositório.
+
+### Atividade: criar uma issue
+
+1. No seu repositório, abra a aba **Issues** e selecione **New issue**.
+2. Escreva um título específico, como `Melhorar a descrição do projeto`.
+3. Na descrição, explique o que você quer alterar e qual resultado espera. Se estiver relatando um problema, inclua as etapas para reproduzi-lo.
+4. Se o repositório oferecer etiquetas, escolha uma que descreva o trabalho e selecione **Submit new issue**.
+
+Guarde o número mostrado no título da issue, como `#1`. Na próxima atividade, você poderá vincular um pull request adicionando `Closes #1` à descrição. O GitHub fechará a issue quando o pull request for mesclado no branch padrão.
+
+</details>
+
+<details id=8>
+<summary><h2>Passo 6: Revisar um pull request</h2></summary>
+
+A revisão permite conversar sobre as alterações antes que sejam incorporadas ao projeto. Para praticar, crie um branch, faça uma pequena alteração no README e abra um pull request. Adicione `Closes #<número>` à descrição para vincular a issue da atividade anterior.
+
+### Atividade: revisar as alterações
+
+1. Peça a outra pessoa com acesso de escrita ao repositório para revisar seu pull request e abrir a aba **Files changed**.
+2. Ela pode comentar em uma linha específica ou selecionar **Review changes** e enviar uma revisão como **Comment**, **Approve** ou **Request changes**.
+3. Leia e responda aos comentários. Se forem solicitadas alterações, envie-as para o mesmo branch e peça uma nova revisão.
+4. Quando a revisão estiver concluída, mescle o pull request. A issue vinculada com `Closes #<número>` será fechada automaticamente após a mesclagem.
+
+Você não pode enviar uma revisão formal do seu próprio pull request. Se estiver aprendendo sozinho, pode explorar as abas **Conversation** e **Files changed**, mas precisará de um colaborador para praticar o envio de uma revisão.
+
+Consulte o guia oficial sobre [revisões de pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews).
+
+</details>
+
+<details id=9>
 <summary><h2>Fim do curso<h2></summary>
 
 Parabéns! Você concluiu este mini-curso e adquiriu o conhecimento fundamental que todo desenvolvedor deve saber.
 
 Ao longo do curso, você obteve uma compreensão sólida dos conceitos fundamentais do GitHub e aprendeu a usar efetivamente essa plataforma de controle de versão. Aqui está um resumo de suas conquistas:
 
-- Você aprendeu sobre o GitHub, repositórios, branches, commits e pull requests.
+- Você aprendeu sobre o GitHub, repositórios, branches, commits, issues e pull requests.
 - Você criou um branch, fez um commit e gerou uma solicitação de pull request.
 - A solicitação de pull request foi mesclada com sucesso.
+- Você praticou como criar uma issue e revisar um pull request.
 - Você fez sua primeira contribuição! 🎉
 
 Parabéns por suas conquistas e continue o ótimo trabalho em sua jornada como desenvolvedor!
